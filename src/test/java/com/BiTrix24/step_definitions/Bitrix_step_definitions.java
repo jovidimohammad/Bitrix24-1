@@ -59,8 +59,6 @@ public class Bitrix_step_definitions {
     public void userShouldBeAbleToCreateAPoll() {
 
 
-        bitrix24.questionBox.sendKeys("how are you?");
-
 
 
 
