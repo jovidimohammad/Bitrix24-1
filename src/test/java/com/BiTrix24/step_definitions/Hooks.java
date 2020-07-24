@@ -8,14 +8,9 @@ import org.openqa.selenium.TakesScreenshot;
 public class Hooks {
 
 
-    @Before(order = 2)
+    @Before
     public void setUpScenario(){
         System.out.println("-----> Before annotation: Setting up browser");
-    }
-
-    @Before(value = "@db", order = 1)
-    public void setUpDatabaseConnection(){
-        System.out.println("--------> BEFORE ANNOTATION: DB CONNECTION CREATED <------");
     }
 
 
@@ -42,18 +37,7 @@ public class Hooks {
         }
 
 
-    }
 
-
-
-
-
-
-
-    @After(value = "@db", order = 2 )
-    public void tearDownDatabaseConnection(){
-
-        System.out.println("--------> AFTER ANNOTATION: DB CONNECTION CLOSED <------");
     }
 
 
@@ -63,16 +47,16 @@ public class Hooks {
 
 
 
+    @After(order = 2)
+    public void tearDown() throws InterruptedException{
+        Thread.sleep(10000);
+        Driver.closeDriver();
 
-    @BeforeStep
-    public void setUpStep(){
-        System.out.println("===========> BEFORESTEP: TAKING SCREENSHOT <===========");
     }
 
-    @AfterStep
-    public void tearDownStep(){
-        System.out.println("===========> AFTERSTEP: TAKING SCREENSHOT <===========");
-    }
+
+
+
 
 
 

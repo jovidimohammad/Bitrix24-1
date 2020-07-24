@@ -11,40 +11,20 @@
         "steps": [
           {
             "result": {
-              "duration": 4352000000,
+              "duration": 2734000000,
               "status": "passed"
             },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.BiTrix24.step_definitions.Hooks.setUpStep()"
-                }
-              }
-            ],
             "line": 5,
             "name": "User already logged in  and on main page",
             "match": {
               "location": "com.BiTrix24.step_definitions.Bitrix_step_definitions.user_already_logged_in_and_on_main_page()"
             },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.BiTrix24.step_definitions.Hooks.tearDownStep()"
-                }
-              }
-            ],
             "keyword": "Given "
           }
         ]
       },
       {
-        "start_timestamp": "2020-07-23T21:37:27.627Z",
+        "start_timestamp": "2020-07-24T17:09:28.314Z",
         "before": [
           {
             "result": {
@@ -57,13 +37,29 @@
           }
         ],
         "line": 8,
-        "name": "Upload from local disks",
+        "name": "User creating a poll",
         "description": "",
-        "id": ":-user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks--download-from;upload-from-local-disks",
+        "id": ":as-a-user--i-should-be-able-to-create-a;user-creating-a-poll",
         "after": [
           {
             "result": {
-              "duration": 1000000,
+              "duration": 10086000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "com.BiTrix24.step_definitions.Hooks.tearDown()"
+            }
+          },
+          {
+            "embeddings": [
+              {
+                "data": "iVBORw0KGgoAAAANSUhEUgAABLAAAAN6CAYAAACe9bCTAAABHGlDQ1BTa2lhAAAokX2RP0vDQBjGf5YugkMRQQeHjHbwT6umCi5NWotrq1DdkjQEaRtDGtEPIYjfwO/h5iQ4Ck6CX8Gps0/MkECJz3H3/u7lubv37qCygVSpwTRM4n7PMoaXVwYFOd4solxLMP9MR/jY/sdXpuWRP/MUf9STWIdry5F4Lcj4PmU344eU4/O+LX4WbwUFdgt8l0SJ+C31e1Gc8pf4ZDq59fK6WfHDi4HiUH2THjdqARN8dhkw5hpH1OWQUyxMNZsWe4ptkcU+xzRFJh252vK1NDcVO8p25bQ5yN/T1TmNb8F7nhsH8PIItaM8V1+H1Sd4rUdO7PylqmnF82r2zovK1+Z/UXJXY+GuBmeEeOyImqq5gfkLHrZFz33K76sAABh/SURBVHic7NgxAQAgDMAwwL/n4YCXHomC3t0zMwsAAAAAos7vAAAAAAB4MbAAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAAEgzsAAAAABIM7AAAAAASDOwAAAAgNuOHQsAAAAADPK3nsaOwgjWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgTWABAAAAsCawAAAAAFgTWAAAAACsCSwAAAAA1gQWAAAAAGsCCwAAAIA1gQUAAADAmsACAAAAYE1gAQAAALAmsAAAAABYE1gAAAAArAksAAAAANYEFgAAAABrAgsAAACANYEFAAAAwJrAAgAAAGBNYAEAAACwJrAAAAAAWBNYAAAAAKwJLAAAAADWBBYAAAAAawILAAAAgDWBBQAAAMCawAIAAABgLQRwCvDPqLAXAAAAAElFTkSuQmCC",
+                "mime_type": "image/png",
+                "name": "User creating a poll"
+              }
+            ],
+            "result": {
+              "duration": 1155000000,
               "status": "passed"
             },
             "match": {
@@ -76,66 +72,38 @@
         "steps": [
           {
             "result": {
-              "duration": 170000000,
-              "status": "passed"
+              "error_message": "org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//*[@id\u003d\u0027feed-add-post-form-tab-vote\u0027]/span\"}\n  (Session info: chrome\u003d84.0.4147.89)\nFor documentation on this error, please visit: https://www.seleniumhq.org/exceptions/no_such_element.html\nBuild info: version: \u00273.141.59\u0027, revision: \u0027e82be7d358\u0027, time: \u00272018-11-14T08:17:03\u0027\nSystem info: host: \u0027Seiteks-MacBook-Pro.local\u0027, ip: \u0027fe80:0:0:0:aa:945:92a3:fff9%en0\u0027, os.name: \u0027Mac OS X\u0027, os.arch: \u0027x86_64\u0027, os.version: \u002710.15.6\u0027, java.version: \u00271.8.0_231\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 84.0.4147.89, chrome: {chromedriverVersion: 84.0.4147.30 (48b3e868b4cc0..., userDataDir: /var/folders/qq/lhk7201958x...}, goog:chromeOptions: {debuggerAddress: localhost:50574}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: MAC, platformName: MAC, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}\nSession ID: 643c485565a4ebb2963661c81c35efce\n*** Element info: {Using\u003dxpath, value\u003d//*[@id\u003d\u0027feed-add-post-form-tab-vote\u0027]/span}\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)\n\tat org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)\n\tat org.openqa.selenium.By$ByXPath.findElement(By.java:353)\n\tat org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)\n\tat com.BiTrix24.step_definitions.Bitrix_step_definitions.asAUserIShouldBeAbleToClickToPollUnderActiveStream(Bitrix_step_definitions.java:31)\n\tat ✽.As a user, I should be able to click to poll under Active Stream(file:///Users/seyteksuerkulov/IdeaProjects/BiTrix24/src/test/resources/features/Poll.feature:9)\n",
+              "duration": 23000000,
+              "status": "failed"
             },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.BiTrix24.step_definitions.Hooks.setUpStep()"
-                }
-              }
-            ],
             "line": 9,
             "name": "As a user, I should be able to click to poll under Active Stream",
             "match": {
               "location": "com.BiTrix24.step_definitions.Bitrix_step_definitions.asAUserIShouldBeAbleToClickToPollUnderActiveStream()"
             },
-            "after": [
-              {
-                "result": {
-                  "duration": 1000000,
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.BiTrix24.step_definitions.Hooks.tearDownStep()"
-                }
-              }
-            ],
             "keyword": "When "
           },
           {
             "result": {
-              "status": "passed"
+              "duration": 1000000,
+              "status": "skipped"
             },
-            "before": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.BiTrix24.step_definitions.Hooks.setUpStep()"
-                }
-              }
-            ],
-            "line": 10,
+            "line": 11,
+            "name": "user should type a message",
+            "match": {
+              "location": "com.BiTrix24.step_definitions.Bitrix_step_definitions.userShouldTypeAMessage()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "status": "skipped"
+            },
+            "line": 12,
             "name": "User should be able to create a poll",
             "match": {
               "location": "com.BiTrix24.step_definitions.Bitrix_step_definitions.userShouldBeAbleToCreateAPoll()"
             },
-            "after": [
-              {
-                "result": {
-                  "status": "passed"
-                },
-                "match": {
-                  "location": "com.BiTrix24.step_definitions.Hooks.tearDownStep()"
-                }
-              }
-            ],
             "keyword": "Then "
           }
         ],
@@ -146,9 +114,9 @@
         ]
       }
     ],
-    "name": ": User should be able to click on upload files icon to upload files and pictures from local disks, download from",
-    "description": "  external drive, bixtrix24, and create files to upload",
-    "id": ":-user-should-be-able-to-click-on-upload-files-icon-to-upload-files-and-pictures-from-local-disks--download-from",
+    "name": ":As a user, I should be able to create a",
+    "description": "  poll by clicking on Poll tab under Active Stream",
+    "id": ":as-a-user--i-should-be-able-to-create-a",
     "keyword": "Feature",
     "uri": "file:src/test/resources/features/Poll.feature",
     "tags": []
