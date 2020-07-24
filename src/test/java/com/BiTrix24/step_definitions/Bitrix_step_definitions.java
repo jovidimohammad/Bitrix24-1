@@ -12,11 +12,13 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.PageFactory;
 
 import java.util.List;
+import java.util.concurrent.TimeUnit;
 
 public class Bitrix_step_definitions {
 
     Bitrix24 bitrix24 =new Bitrix24();
     WebDriver driver = Driver.getDriver();
+
     Actions actions=new Actions(driver);
 
     @Given("User already logged in  and on main page")
@@ -59,7 +61,22 @@ public class Bitrix_step_definitions {
     public void userShouldBeAbleToCreateAPoll() {
 
 
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
 
+       WebElement iframe = driver.findElement(By.xpath("//iframe[@class='bx-editor-iframe']"));
+
+       driver.switchTo().frame(iframe);
+       driver.findElement(By.xpath("/html/body")).sendKeys("hi");
+       driver.switchTo().defaultContent();
+
+
+        driver.findElement(By.cssSelector("input[id='question_0']")).sendKeys("how are you?");
+        driver.findElement(By.cssSelector("input[id='answer_0__0_']")).sendKeys("good");
+        driver.findElement(By.cssSelector("input[id='answer_0__1_']")).sendKeys("not good");
+
+
+
+        driver.findElement(By.cssSelector("button[id='blog-submit-button-save']")).click();
 
 
     }
