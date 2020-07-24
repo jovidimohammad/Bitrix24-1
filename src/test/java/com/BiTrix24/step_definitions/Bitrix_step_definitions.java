@@ -23,7 +23,7 @@ public class Bitrix_step_definitions {
     @Given("User already logged in  and on main page")
     public void user_already_logged_in_and_on_main_page() {
 
-        bitrix24.loginAsHelpDesk();
+        bitrix24.loginAsHrUser();
     }
 
     @When("As a user, I should be able to click to poll under Active Stream")
@@ -66,6 +66,7 @@ public class Bitrix_step_definitions {
         driver.findElement(By.xpath("/html/body")).sendKeys("hi!!!");
         driver.switchTo().defaultContent();
     }
+
 
     @Then("User should be able to create a poll")
     public void userShouldBeAbleToCreateAPoll() {
