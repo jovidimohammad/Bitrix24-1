@@ -7,5 +7,7 @@ Feature: :As a user, I should be able to create a
  @wip
 Scenario: User creating a poll
 When   As a user, I should be able to click to poll under Active Stream
-Then  User should be able to create a poll
+
+   Then user should type a message
+   Then  User should be able to create a poll
 

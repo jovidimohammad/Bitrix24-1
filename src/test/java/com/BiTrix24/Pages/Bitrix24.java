@@ -45,7 +45,6 @@ public class Bitrix24 {
 
     }
 
-    @FindBy(id="question_0")
-    public WebElement questionBox;
+
 
 }
